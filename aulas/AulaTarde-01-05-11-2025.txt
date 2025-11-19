@@ -28,3 +28,76 @@ Link: https://github.com/vaamonde/dell-linuxmint/blob/master/software/00-install
 
 #06_ Instalar os Convidados do VirtualBOX
 Link: https://github.com/vaamonde/dell-linuxmint/blob/master/software/00-install-linuxmint-22.2-virtualbox-7.1.md
+
+
+
+
+# 🍷 WINE (Wine Is Not an Emulator)
+
+### ✔ O que é
+- Camada de compatibilidade que permite rodar programas e jogos de Windows no Linux.
+
+### ✔ Vantagens
+- Leve e rápido.
+- Roda arquivos .exe e .msi.
+- Altamente configurável.
+
+### ✔ Desvantagens
+- Pode exigir configuração manual.
+- Nem tudo roda perfeitamente.
+
+### ✔ Quando usar
+👉 Quando você quer instalar programas ou jogos específicos do Windows e não se importa em configurar.
+
+---
+
+# 🎮 PlayOnLinux (POL)
+
+### ✔ O que é
+- Interface gráfica que facilita o uso do Wine.
+- Permite múltiplos prefixos com versões diferentes do Wine.
+
+### ✔ Vantagens
+- Muito mais simples que configurar Wine manualmente.
+- Cada programa usa sua própria versão do Wine.
+- Ótimo para iniciantes.
+
+### ✔ Desvantagens
+- Menos atualizado que o Lutris.
+- Algumas configurações são limitadas.
+
+### ✔ Quando usar
+👉 Quando você quer usar Wine facilmente, sem complicações técnicas.
+
+---
+
+# 🎮 Steam Proton
+
+### ✔ O que é
+- Versão otimizada do Wine criada pela Valve para rodar jogos de Windows dentro do Steam.
+- Inclui DXVK, VKD3D, Esync, Fsync e outras otimizações.
+
+### ✔ Vantagens
+- Funciona automaticamente na maioria dos jogos.
+- Melhor compatibilidade com games modernos.
+- Atualizações frequentes.
+- Usado no Steam Deck.
+
+### ✔ Desvantagens
+- Apenas para jogos do Steam.
+- Anti-cheat pode causar problemas.
+
+### ✔ Quando usar
+👉 Quando você quer jogar jogos de Windows no Steam com o mínimo de configuração.
+
+---
+
+# 🔥 Qual usar para cada caso?
+
+| Caso | Recomendado |
+|------|-------------|
+| Jogar jogos do Steam | **Steam Proton** |
+| Jogar jogos fora do Steam (Epic, Battle.net, GOG) | **Lutris** ou PlayOnLinux, mas **Lutris recomendado** |
+| Rodar programas comuns de Windows | **Wine** ou **PlayOnLinux** |
+| Para iniciantes | **Proton (jogos)** e **PlayOnLinux (programas)** |
+
