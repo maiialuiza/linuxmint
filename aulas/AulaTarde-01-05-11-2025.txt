@@ -101,3 +101,89 @@ Link: https://github.com/vaamonde/dell-linuxmint/blob/master/software/00-install
 | Rodar programas comuns de Windows | **Wine** ou **PlayOnLinux** |
 | Para iniciantes | **Proton (jogos)** e **PlayOnLinux (programas)** |
 
+
+# 🧠 O que é e para que serve o Kernel-OEM (Linux)
+
+**Kernel-OEM** é uma versão especial do kernel Linux, usada principalmente no **Ubuntu**, criada para oferecer **melhor suporte a hardware novo** e otimizações específicas para computadores produzidos por fabricantes (OEMs), como Dell, Lenovo e HP.
+
+---
+
+## ✅ O que é o Kernel-OEM?
+
+É um kernel **customizado** que recebe:
+
+- Drivers mais recentes  
+- Correções antecipadas  
+- Recursos novos antes do kernel padrão do Ubuntu  
+
+Ele existe para dar suporte imediato a dispositivos recém-lançados.
+
+---
+
+## 🛠️ Para que serve o Kernel-OEM?
+
+### 1. **Suporte a hardware recente**
+Inclui drivers atualizados para:
+
+- Placas Wi-Fi e Bluetooth modernas  
+- GPUs Intel, AMD e NVIDIA novas  
+- Trackpads, webcams e leitores biométricos  
+- Controladores NVMe e PCIe recentes  
+
+---
+
+### 2. **Otimizações específicas para fabricantes**
+O kernel-oem pode incluir ajustes de:
+
+- Gerenciamento de energia  
+- Controle térmico (ventoinhas)  
+- Suspensão/hibernação  
+- Desempenho em notebooks certificados
+
+---
+
+### 3. **Correções antecipadas de bugs**
+Ele recebe patches antes do kernel padrão, resolvendo problemas que só seriam corrigidos nas versões futuras.
+
+---
+
+### 4. **Estabilidade em máquinas certificadas**
+Muitos modelos empresariais certificados pela Canonical usam o kernel-oem por padrão.
+
+---
+
+## 🧩 Quando usar o Kernel-OEM?
+
+Use se:
+
+- Seu hardware é **muito novo**  
+- Wi-Fi, áudio, touchpad, câmera ou GPU têm problemas no kernel padrão  
+- Seu notebook é certificado com Ubuntu  
+- Você precisa dos drivers mais recentes sem mudar a versão do Ubuntu
+
+---
+
+## ⚠️ Quando **não** usar?
+
+Evite se:
+
+- Está usando um **servidor**  
+- Seu hardware já funciona perfeitamente  
+- Prefere **estabilidade máxima** em vez de recursos novos  
+
+---
+
+## 📌 Resumo rápido
+
+| Item | Kernel padrão | Kernel-OEM |
+|------|---------------|-------------|
+| Foco | Estabilidade | Suporte a hardware novo |
+| Atualizações | Mais lentas | Mais rápidas |
+| Público | Usuários gerais | Fabricantes e computadores novos |
+| Drivers | Padrão | Mais modernos |
+
+---
+
+
+
+
